@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+@layer base {
+
+  html,
+  body,
+  #root {
+    @apply h-full text-white
+  }
+
+  #root {
+    @apply flex flex-col
+  }
+
+  .wrapper {
+    /* height: calc(100% - theme('spacing.24')); */
+    @apply flex
+  }
+}
+
+
